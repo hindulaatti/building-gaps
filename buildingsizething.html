@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<head>
+    <script src="./js/jquery-3.4.1.slim.min.js"></script>
+    <script src="./js/jquery.tabletojson.min.js"></script>
+    <script src="./js/sizes.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h2>What fits where?</h2>
+        </div>
+        <div class="row">
+            <div class="col-sm">
+                <select class="custom-select" id="building1"></select>
+            </div>
+            <div class="col-sm">
+                <select class="custom-select" id="building2"></select>
+            </div>
+
+        </div>
+
+        <div id="row">
+            <div class="col-sm">
+                <div id="b1ontopdiv">
+                    <h5 id="b1ontoph5">
+                        <span class="b1name">Building</span> on top;
+                        <span class="b2name">Building</span> on bottom</h5>
+                    <ul id="b1ontop"></ul>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div id="b1onbottomdiv">
+                    <h5 id="b1onbottomh5">
+                        <span class="b2name">Building</span> on top;
+                        <span class="b1name">Building</span> on bottom</h5>
+                    </h5 id="b1ontoph5">
+                    <ul id="b1onbottom"></ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="row">
+            <div class="col-sm">
+                <div id="b1onleftdiv">
+                    <h5 id="b1onlefth5">
+                        <span class="b1name">Building</span> on left;
+                        <span class="b2name">Building</span> on right</h5>
+                    </h5 id="b1ontoph5">
+                    <ul id="b1onleft"></ul>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div id="b1onrightdiv">
+                    <h5 id="b1onrighth5">
+                        <span class="b2name">Building</span> on left;
+                        <span class="b1name">Building</span> on right</h5>
+                    </h5 id="b1ontoph5">
+                    <ul id="b1onright"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/scripts.js"></script>
+</body>
+
+</html>
